@@ -1,4 +1,16 @@
 # aprendiendovue
+npm install -g @vue/cli
+npm install @vue/cli-service-global
+npm install vuex --save
+vue --version
+vue create aprendiendovue
+npm run serve
+npm install --save vue-router
+npm install vuelidate --save
+npm install --save vue-
+npm install --save moment
+npm install sweetalert --save
+npm install --save sweetalert2
 
 ## Project setup
 ```

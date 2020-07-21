@@ -1,0 +1,25 @@
+<template>
+  <div>
+      <h1>Redirigiendo...</h1>
+  </div>
+</template>
+
+<script>
+export default {
+name: 'Redirect',
+data() {
+    return {
+        
+    }
+},
+    mounted() {
+        let searchString = this.$route.params.searchString
+        this.$router.push('/buscador/'+searchString)
+    }
+
+}
+</script>
+
+<style>
+
+</style>
